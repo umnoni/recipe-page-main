@@ -1,6 +1,6 @@
 import omelette from './assets/images/image-omelette.jpeg'
 import BulletList from './components/BulletList';
-import Header from './components/header';
+import Header from './components/Header';
 import NumberList from './components/NumberList';
 import PreparationTime from './components/PreparationTime';
 import Table from './components/Table';
@@ -28,11 +28,11 @@ export default function App(){
   ];
 
   return(
-    <div className="bg-[#f3e5d8] min-h-screen flex items-center justify-center">
-      <div className="bg-white w-full max-w-[680px] sm:p-8 sm:my-10 sm:rounded-2xl overflow-hidden">
-        <img src={omelette} className='w-full sm:rounded-xl'></img>
-        <div className='px-8 pb-8 sm:p-0 mt-8 flex flex-col gap-4'>
-          <h1 className='text-[36px] font-[YoungSerif-Regular] text-stone-900'>
+    <div className="bg-[#f3e5d8] min-h-screen flex items-center justify-center font-main text-sm text-stone-600">
+      <div className="bg-white max-w-170 sm:p-8 sm:my-10 sm:rounded-2xl">
+        <img src={omelette} className='w-full mb-8 sm:rounded-xl'></img>
+        <div className='space-y-4 sm:p-0'>
+          <h1 className='text-4xl font-[YoungSerif-Regular] text-stone-900'>
             Simple Omelette Recipe
           </h1>
           <p>
@@ -41,12 +41,12 @@ export default function App(){
           <PreparationTime arr={prepartionTimeData}></PreparationTime>
           <Header title="Ingredients"></Header>
           <BulletList arr={ingredientsData}></BulletList>
-          <hr className='text-stone-200 my-4'></hr>
+          <hr className='text-stone-200 my-8'></hr>
           <Header title="Instructions"></Header>
           <NumberList arr={instructionsData}></NumberList>
-          <hr className='text-stone-200 my-4'></hr>
+          <hr className='text-stone-200 my-8'></hr>
           <Header title="Nutrition"></Header>
-          <p className='mb-2'>
+          <p className='mb-8'>
             The table below shows nutritional values per serving without the additional fillings.
           </p>
           <Table title="Calories" desc="277kcal"></Table>

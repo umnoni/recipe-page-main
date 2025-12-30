@@ -1,7 +1,7 @@
 export default function PreparationTime({ arr } : { arr: Array<string> }){
   return(
   <div className="bg-[#fff7fc] p-6 rounded-xl">
-    <h1 className="text-rose-800 font-bold mb-5 text-[20px]">
+    <h1 className="text-rose-800 font-bold mb-5 text-xl">
       Preparation time
     </h1>
     <ul className="list-disc ml-6 space-y-4 marker:text-rose-800 marker:text-sm">

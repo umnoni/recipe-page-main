@@ -31,7 +31,7 @@ export default function App(){
     <div className="bg-[#f3e5d8] min-h-screen flex items-center justify-center font-main text-sm text-stone-600">
       <div className="bg-white max-w-170 sm:p-8 sm:my-10 sm:rounded-2xl">
         <img src={omelette} className='w-full mb-8 sm:rounded-xl'></img>
-        <div className='space-y-4 sm:p-0'>
+        <div className='space-y-4 px-8 pb-8 sm:p-0'>
           <h1 className='text-4xl font-[YoungSerif-Regular] text-stone-900'>
             Simple Omelette Recipe
           </h1>

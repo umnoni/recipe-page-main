@@ -35,7 +35,7 @@ export default function App(){
           <h1 className='text-[36px] font-[YoungSerif-Regular] text-stone-900'>
             Simple Omelette Recipe
           </h1>
-          <p className='text-[14px] font-[Outfit-VariableFont_wght] text-stone-600'>
+          <p>
             An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
           </p>
           <PreparationTime arr={prepartionTimeData}></PreparationTime>
@@ -46,7 +46,7 @@ export default function App(){
           <NumberList arr={instructionsData}></NumberList>
           <hr className='text-stone-200 my-4'></hr>
           <Header title="Nutrition"></Header>
-          <p className='text-[14px] font-[Outfit-VariableFont_wght] text-stone-600 mb-2'>
+          <p className='mb-2'>
             The table below shows nutritional values per serving without the additional fillings.
           </p>
           <Table title="Calories" desc="277kcal"></Table>

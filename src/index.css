@@ -11,5 +11,5 @@
 }
 
 @theme {
-  --font-main: 'Outfit-VariableFont_wght', sans-serif;
+  --font-sans: 'Outfit-VariableFont_wght', sans-serif, system-ui;
 }

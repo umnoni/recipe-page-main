@@ -28,8 +28,8 @@ export default function App(){
   ];
 
   return(
-    <div className="bg-[#f3e5d8] min-h-screen flex items-center justify-center font-main text-sm text-stone-600">
-      <div className="bg-white max-w-170 sm:p-8 sm:my-10 sm:rounded-2xl">
+    <div className="bg-[#f3e5d8] min-h-screen flex justify-center text-sm text-stone-600">
+      <div className="bg-white w-full max-w-170 max-h-fit sm:p-8 sm:my-10 sm:rounded-2xl">
         <img src={omelette} className='w-full mb-8 sm:rounded-xl'></img>
         <div className='space-y-4 px-8 pb-8 sm:p-0'>
           <h1 className='text-4xl font-[YoungSerif-Regular] text-stone-900'>
